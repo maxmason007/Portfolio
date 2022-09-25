@@ -1,0 +1,74 @@
+.logo-container {
+    z-index: 0;
+    width: 700px;
+    height: 609px;
+    position: absolute;
+    top: 50;
+    right: 15%;
+    bottom: 35%;
+    left: auto;
+    margin: auto;
+    // opacity: 0;
+
+    @media (max-width: 1500px) {
+        width: 400px;
+        right: 15%;
+        bottom: 35%;
+        left: 55%;
+        top: 50%;
+    }
+
+    @media (max-width: 885px) {
+        width: 400px;
+        right: 35%;
+        bottom: 35%;
+        left: 15%;
+        top: 90%;
+    }
+
+    @media (max-width: 600px) {
+        width: 400px;
+        right: 15%;
+        bottom: 35%;
+        left: 15%;
+        top: 90%;
+    }
+
+    // @media (min-width: 375px) {
+    //     width: 300px;
+    //     right: 15%;
+    //     bottom: 55%;
+    //     left: 25%;
+    //     top: 105%;
+    // }
+
+    .outline-logo {
+        color: #ffd700;
+        position: absolute;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: 0;
+        margin: auto;
+        width: 100%;
+        opacity: 0;
+        animation: fadeIn 2s 3.7s forwards;
+        ;
+        z-index: 1;
+    }
+
+    .solid-logo {
+        position: absolute;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: 0;
+        margin: auto;
+        width: 100%;
+        opacity: 0;
+        animation: fadeIn 3s 4.7s forwards;
+        // transform: rotateZ(30deg);
+        z-index: 1;
+    }
+
+}
