@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react'
-import ReactGA from 'react-ga'
+import React from 'react'
+// import ReactGA from 'react-ga'
 import { Route, Routes } from 'react-router-dom'
 import './App.scss'
 import About from './components/About'
@@ -12,12 +12,12 @@ import Layout from './components/Layout'
 
 function App() {
 
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname + window.location.search)
-  }, [])
+  // useEffect(() => {
+  //   ReactGA.pageview(window.location.pathname + window.location.search)
+  // }, [])
 
-  const TRACKING_ID = "UA-239487893-1"; // OUR_TRACKING_ID
-  ReactGA.initialize(TRACKING_ID);
+  // const TRACKING_ID = "UA-239487893-1"; // OUR_TRACKING_ID
+  // ReactGA.initialize(TRACKING_ID);
 
   return (
     <>

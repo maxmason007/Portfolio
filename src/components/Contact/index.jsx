@@ -5,11 +5,11 @@ import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
 import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
-import useAnalyticsEventTracker from './useAnalyticsEventTracker';
+// import useAnalyticsEventTracker from './useAnalyticsEventTracker';
 
 const Contact = () => {
 
-    const gaEventTracker = useAnalyticsEventTracker('send');
+    // const gaEventTracker = useAnalyticsEventTracker('send');
 
     const form = useRef();
 
