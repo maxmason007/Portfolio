@@ -56,7 +56,11 @@
          font-family: 'Helvetica Neue';
          font-weight: 500;
 
-         @media (min-width: 375px) {
+         @media (max-width: 1800px) {
+             font-size: 45px;
+         }
+
+         @media (max-width: 375px) {
              font-size: 38px;
          }
 
