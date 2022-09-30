@@ -122,7 +122,8 @@
         @media (max-width: 800px) {
             left: 25%;
             width: 65%;
-            top: 30%;
+            //ABOUT ME HEIGHT!!!
+            top: 25%;
         }
     }
 }
@@ -152,11 +153,14 @@
             max-height: 90%;
         }
 
+        ///CONTACT TITLE - IPHONE
+
         @media (max-width: 455px) {
             position: absolute;
             left: 25%;
             top: 45%;
-            transform: translateY(-55%);
+            //MOVE DOWN??
+            transform: translateY(-52%);
             width: 70%;
             vertical-align: middle;
             display: table-cell;
