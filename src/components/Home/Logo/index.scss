@@ -23,15 +23,40 @@
         right: 35%;
         bottom: 35%;
         left: 15%;
-        top: 90%;
+        top: 80%;
     }
 
     @media (max-width: 600px) {
         width: 400px;
         right: 15%;
-        bottom: 35%;
+        bottom: 45%;
         left: 15%;
+        top: 80%;
+    }
+
+    @media (max-width: 470px) {
+        width: 250px;
+        right: 20%;
+        bottom: 45%;
+        left: 25%;
         top: 90%;
+    }
+
+    @media (max-width: 375px) {
+        width: 250px;
+        right: 20%;
+        // bottom: -45%;
+        left: 25%;
+        top: 100%;
+
+    }
+
+    @media (max-width: 275px) {
+        width: 250px;
+        right: 20%;
+        bottom: 45%;
+        left: 25%;
+        top: 98%;
     }
 
     // @media (min-width: 375px) {

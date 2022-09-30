@@ -49,6 +49,8 @@
         vertical-align: middle;
         display: table-cell;
         max-height: 90%;
+        margin-right: 0;
+
 
         h1 {
             font-size: 53px;
@@ -113,6 +115,89 @@
         }
     }
 }
+
+
+.about-page {
+    .text-zone {
+        @media (max-width: 800px) {
+            left: 25%;
+            width: 65%;
+            top: 30%;
+        }
+    }
+}
+
+.contact-page {
+    .text-zone {
+
+        @media (max-width: 1000px) {
+            position: absolute;
+            left: 25%;
+            top: 45%;
+            transform: translateY(-50%);
+            width: 60%;
+            vertical-align: middle;
+            display: table-cell;
+            max-height: 90%;
+        }
+
+        @media (max-width: 1000px) {
+            position: absolute;
+            left: 25%;
+            top: 45%;
+            transform: translateY(-50%);
+            width: 60%;
+            vertical-align: middle;
+            display: table-cell;
+            max-height: 90%;
+        }
+
+        @media (max-width: 455px) {
+            position: absolute;
+            left: 25%;
+            top: 45%;
+            transform: translateY(-50%);
+            width: 70%;
+            vertical-align: middle;
+            display: table-cell;
+            max-height: 90%;
+        }
+
+        // @media (max-width: 355px) {
+        //     position: absolute;
+        //     left: 25%;
+        //     top: 45%;
+        //     transform: translateY(-50%);
+        //     width: 80%;
+        //     vertical-align: middle;
+        //     display: table-cell;
+        //     max-height: 90%;
+        // }
+    }
+}
+
+
+.contact-page {
+    .text-zone {
+        h1 {
+            font-size: 48px;
+            font-family: 'Helvetica Neue';
+            color: #ffd700;
+            font-weight: 400;
+            margin-top: 0;
+            position: relative;
+            margin-bottom: 40px;
+            left: 0px;
+        }
+    }
+}
+
+.contact-page {
+    .contact-text {
+        width: 100%;
+    }
+}
+
 
 // .about-page,
 // .text-zone {

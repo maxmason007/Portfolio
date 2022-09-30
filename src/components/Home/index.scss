@@ -41,7 +41,7 @@
          }
 
          @media (min-width: 375px) {
-             transform: translateY(-80%);
+             transform: translateY(-100%);
              left: 20%;
              width: 100%;
          }
@@ -57,7 +57,7 @@
          font-weight: 500;
 
          @media (min-width: 375px) {
-             font-size: 48px;
+             font-size: 38px;
          }
 
          &::before {
@@ -105,9 +105,13 @@
      font-family: 'Helvetica Neue';
      letter-spacing: 3px;
      animation: fadeIn 1s 1.8s backwards;
+
+     @media (min-width: 375px) {
+         font-size: 10px;
+     }
  }
 
- .flat-button {
+ .flat-button-home {
      color: #ffd700;
      font-size: 13px;
      font-weight: 400;
@@ -123,6 +127,11 @@
 
      @media (max-width: 885px) {
          margin-left: 94px;
+     }
+
+     @media (min-width: 375px) {
+         margin-left: 64px;
+         margin-top: 50px;
      }
 
      &:hover {

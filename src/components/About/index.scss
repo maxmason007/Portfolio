@@ -1,3 +1,13 @@
+.text-zone {
+    @media (min-width: 375px) {}
+}
+
+.bio {
+    @media (min-width: 375px) {}
+}
+
+
+
 .stage-cube-cont {
     width: 30%;
     height: 100%;
@@ -7,6 +17,42 @@
     position: absolute;
     right: 0;
     overflow: hidden;
+
+    @media (max-width: 800px) {
+        width: 30%;
+        // transform: translateX(-90%);
+        transform: translateY(55%);
+        right: 30%;
+    }
+
+    @media (min-width: 801px) {
+        width: 30%;
+        // transform: translateX(-90%);
+        transform: translateY(20%);
+        right: 10%;
+    }
+
+    @media (min-width: 1000px) {
+        width: 30%;
+        // transform: translateX(-90%);
+        transform: translateY(15%);
+        right: 10%;
+    }
+
+    @media (min-width: 1200px) {
+        width: 30%;
+        // transform: translateX(-90%);
+        transform: translateY(10%);
+        right: 10%;
+    }
+
+    @media (min-width: 1500px) {
+        width: 30%;
+        // transform: translateX(-90%);
+        transform: translateY(5%);
+        right: 10%;
+    }
+
 }
 
 .cubespinner {
@@ -17,6 +63,7 @@
     transform-style: preserve-3d;
     transform-origin: 100px 100px 0;
     margin-left: calc(50% - 100px);
+
 
     div {
         position: absolute;
@@ -29,6 +76,7 @@
         justify-content: center;
         align-items: center;
         box-shadow: 0 0 20px 0px lightyellow;
+
     }
 
     .face1 {

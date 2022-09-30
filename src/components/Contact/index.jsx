@@ -47,7 +47,7 @@ const Contact = () => {
                             strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'M', 'e']}
                             idx={15} />
                     </h1>
-                    <p>
+                    <p className='contact-text'>
                         I am interested in freelance opportunities - especially ambitous or large projects. However, if you have any other requests or questions, don't hesitate to contact me use the below form. Or you can email me directly at masonmax@hotmail.co.uk
                     </p>
                     <div className='contact-form'>
