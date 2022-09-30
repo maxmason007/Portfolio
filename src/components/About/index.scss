@@ -3,7 +3,9 @@
 }
 
 .bio {
-    @media (min-width: 375px) {}
+    @media (min-width: 375px) {
+        transform: translateY(-30%);
+    }
 }
 
 
