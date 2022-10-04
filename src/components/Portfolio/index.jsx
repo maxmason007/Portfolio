@@ -6,6 +6,8 @@ import css from './css-iconn.png';
 import html from './html-icon.png';
 import './index.scss';
 import js from './js-icon.png';
+import passwordimage from './passwordimage.png';
+import blackjackimage from './poker.png';
 import react from './react.png';
 import portimgone from './ssc2.png';
 
@@ -81,8 +83,8 @@ const Portfolio = () => {
                 </div>
                 <div className='snippet-container'>
                     <Project image={portimgone} title={'Sunset Social Club Website'} blurb={sscText} html={html} css={css} js={js} bootstrap={bootstrap} react={react} />
-                    <Project blurb={randomPassword} title={'Random Password Generator'} html={html} css={css} js={js} bootstrap='' react={''} />
-                    <Project blurb={countdownTimer} title={'Countdown Timer'} html={html} css={css} js={js} bootstrap={bootstrap} react={react} />
+                    <Project image={passwordimage} blurb={randomPassword} title={'Random Password Generator'} html={html} css={css} js={js} bootstrap='' react={''} />
+                    <Project image={blackjackimage} blurb={countdownTimer} title={'Black Jack Poker Game'} html={html} css={css} js={js} bootstrap={bootstrap} react={react} />
                 </div>
             </div>
             <Loader type="pacman" />
