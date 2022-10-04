@@ -19,7 +19,7 @@
     flex-wrap: wrap;
     background-color: none;
     width: 75%;
-    height: 50%vh;
+    height: 60%;
     transform: translateY(10%);
     margin-top: -20px;
     margin-left: 8%;
@@ -46,7 +46,6 @@
     opacity: 0;
     animation: backInLeft 2s 2s;
     animation-fill-mode: forwards;
-    // margin: 50px;
 }
 
 .title {
@@ -150,13 +149,13 @@
     width: 80px;
     height: 65px;
     margin-left: -25px;
-    margin-top: 5px;
+    margin-top: -1px;
 }
 
 #react {
     width: 55px;
     height: 40px;
-    margin-top: 12px;
+    margin-top: 10px;
 }
 
 
