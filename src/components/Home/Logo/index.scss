@@ -21,9 +21,10 @@
     @media (max-width: 885px) {
         width: 400px;
         right: 35%;
-        bottom: 35%;
+        bottom: 15%;
         left: 15%;
-        top: 80%;
+        top: 20%;
+        height: 109px;
     }
 
     @media (max-width: 600px) {
@@ -31,7 +32,7 @@
         right: 15%;
         bottom: 45%;
         left: 15%;
-        top: 80%;
+        top: 50%;
     }
 
     @media (max-width: 470px) {
@@ -39,14 +40,22 @@
         right: 20%;
         bottom: 45%;
         left: 25%;
-        top: 90%;
+        top: 20%;
+    }
+
+    @media (max-width: 414px) {
+        width: 250px;
+        right: 20%;
+        bottom: 45%;
+        left: 25%;
+        top: 60%;
     }
 
     @media (max-width: 375px) {
         width: 200px;
         right: 8%;
         left: 25%;
-        top: 155%;
+        top: 65%;
 
     }
 

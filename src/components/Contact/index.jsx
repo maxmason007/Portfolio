@@ -82,12 +82,12 @@ const Contact = () => {
                     <span>masonmax@hotmail.co.uk</span>
                 </div> */}
                 <div className='map-wrap'>
-                    <MapContainer center={[51.505, -0.09]} zoom={13} scrollWheelZoom={true}>
+                    <MapContainer center={[50.435, -3.56]} zoom={7} scrollWheelZoom={true}>
                         <TileLayer
                             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                         />
-                        <Marker position={[51.505, -0.09]}>
+                        <Marker position={[50.435, -3.56]}>
                             <Popup>
                                 This is where I'm based! Lets go have a coffee :D
                             </Popup>

@@ -28,7 +28,7 @@ const About = () => {
                             idx={15}
                         />
                     </h1>
-                    <p className="bio">I'm an ambitious fron-end developer looking for a role in established IT companies with the opportunity to work with the latest technologies on challenging and diverse projects.</p>
+                    <p className="bio">I'm an ambitious front-end developer looking for a role in established IT companies with the opportunity to work with the latest technologies on challenging and diverse projects.</p>
                     <p className="bio">I'm quietly confident, naturally curious, and perpetually working on improving my chops on design problem at a time.</p>
                     <p className="bio">If I need to define myself in one sentence that would be a family person, a music fanatic and man u fan. And of course, tech obsessed!</p>
                 </div>
