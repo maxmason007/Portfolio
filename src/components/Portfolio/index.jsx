@@ -41,8 +41,7 @@ const Project = (props) => {
 
                 </div>
                 <ul className="details-container">
-                    <li className="details">Live Demo ></li>
-                    <li className="details">GitHub ></li>
+                    <li className="details"><a href={props.link} target="_blank" className="livedemos">Live Demo</a></li>
                 </ul>
             </div>
         </div>
@@ -63,7 +62,7 @@ const Portfolio = () => {
 
     const sscText = "This is a static website for the DJ duo & events company, 'Sunset Social Club'. I built the site in React, used Bootstrap for the styling and included a contact form using Email.js so no back-end was necessary. All the UI/UX was designed by myself.  "
     const randomPassword = "This is a random password generator app built with HTML, CSS & Vanilla JS as part of the Frontend Developer Career Path on Scrimba."
-    const countdownTimer = "This is a countdown timer app in the style of America basketball. Like the random password app it was built using HTML, CSS & Vanilla JS."
+    const countdownTimer = "This is a Blackjack poker game using HTML, CSS & Vanilla JS. Like the random password app it was built on the Frontend Developer Career Path on Scrimba."
     // if (this.props.React === '') {
     //     return ("ok!")
     // }
@@ -82,9 +81,9 @@ const Portfolio = () => {
                     </h1>
                 </div>
                 <div className='snippet-container'>
-                    <Project image={portimgone} title={'Sunset Social Club Website'} blurb={sscText} html={html} css={css} js={js} bootstrap={bootstrap} react={react} />
-                    <Project image={passwordimage} blurb={randomPassword} title={'Random Password Generator'} html={html} css={css} js={js} bootstrap='' react={''} />
-                    <Project image={blackjackimage} blurb={countdownTimer} title={'Black Jack Poker Game'} html={html} css={css} js={js} bootstrap={bootstrap} react={react} />
+                    <Project image={portimgone} title={'Sunset Social Club Website'} link={"https://melodic-kulfi-274649.netlify.app/"} blurb={sscText} html={html} css={css} js={js} bootstrap={bootstrap} react={react} />
+                    <Project image={passwordimage} blurb={randomPassword} title={'Random Password Generator'} link={"https://eclectic-otter-8c291f.netlify.app/"} html={html} css={css} js={js} bootstrap={bootstrap} react={react} />
+                    <Project image={blackjackimage} blurb={countdownTimer} title={'Blackjack Game'} link={"https://timely-dusk-0ea6fe.netlify.app/"} html={html} css={css} js={js} bootstrap={bootstrap} react={react} />
                 </div>
             </div>
             <Loader type="pacman" />

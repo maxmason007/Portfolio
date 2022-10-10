@@ -72,7 +72,15 @@
     margin-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
+
+    // &:nth-of-type() {
+    //     margin-bottom: 100px;
+    // }
 }
+
+// .write-up:nth-of-type(2n) {
+//     margin-top: 40px;
+// }
 
 .images {
     display: flex;
@@ -149,7 +157,7 @@
     width: 80px;
     height: 65px;
     margin-left: -25px;
-    margin-top: -1px;
+    margin-top: 5px;
 }
 
 #react {
@@ -161,4 +169,8 @@
 
 .no-image-active {
     display: none;
+}
+
+.livedemos {
+    color: white;
 }
