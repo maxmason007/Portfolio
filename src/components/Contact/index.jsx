@@ -37,6 +37,7 @@ const Contact = () => {
         }, 3000)
     }, [])
 
+
     return (
         <>
             <div className='container contact-page'>
