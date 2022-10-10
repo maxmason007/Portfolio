@@ -29,8 +29,8 @@ const About = () => {
                         />
                     </h1>
                     <p className="bio">I'm an ambitious front-end developer looking for a role in established IT companies with the opportunity to work with the latest technologies on challenging and diverse projects.</p>
-                    <p className="bio">I'm quietly confident, naturally curious, and perpetually working on improving my chops on design problem at a time.</p>
-                    <p className="bio">If I need to define myself in one sentence that would be a family person, a music fanatic and man u fan. And of course, tech obsessed!</p>
+                    <p className="bio">I'm quietly confident, naturally curious, and perpetually working on improving my chops on design problems.</p>
+                    <p className="bio">If I need to define myself in one sentence that would be, a family person, a music fanatic and a Man United fan. And of course, tech obsessed!</p>
                 </div>
                 <div className='stage-cube-cont'>
                     <div className='cubespinner'>

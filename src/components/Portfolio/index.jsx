@@ -61,8 +61,8 @@ const Portfolio = () => {
     }, [])
 
     const sscText = "This is a static website for the DJ duo & events company, 'Sunset Social Club'. I built the site in React, used Bootstrap for the styling and included a contact form using Email.js so no back-end was necessary. All the UI/UX was designed by myself.  "
-    const randomPassword = "This is a random password generator app built with HTML, CSS & Vanilla JS as part of the Frontend Developer Career Path on Scrimba."
-    const countdownTimer = "This is a Blackjack poker game using HTML, CSS & Vanilla JS. Like the random password app it was built on the Frontend Developer Career Path on Scrimba."
+    const randomPassword = "Using HTML, CSS & Vanilla JS as part of the Frontend Developer Career Path on Scrimba I put together a useful random password generator app built. Now, you will never need to think of a new password again!"
+    const countdownTimer = "Everybody loves Blackjack so I thought I'd make this game to showcase some JavaScript skills. Just like the random password app, this game was also built on the Frontend Developer Career Path on Scrimba. It uses HTML, CSS & Vanilla JavaScript."
     // if (this.props.React === '') {
     //     return ("ok!")
     // }
